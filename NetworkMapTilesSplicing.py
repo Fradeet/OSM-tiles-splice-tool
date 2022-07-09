@@ -29,7 +29,7 @@ def GetNetworkPictures(infoDict):
 def main():
     xList= yList= []
     
-    zoomRate= input("输入放大级数 (Zoom Level)：")
+    zoomRate= input("Zoom Level (Z)：")
     p1X, p1Y= map(int,input("Location1 (x,y)：").split(","))
     p2X, p2Y= map(int,input("Location2 (x,y)：").split(","))
 
