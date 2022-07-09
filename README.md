@@ -14,7 +14,7 @@ pip install requests
 Open your web browser, visit [OpenStreetMap Wesite](https://www.openstreetmap.org/), and open the DevTool (Press F12 by default). Turn 'Network' tab, that list the pictures which browser loaded. (If you see the image files, just move the map)
 ![](pic/NetworkTab.png)
 
-Find the start point what you want, you can choose one and preview the tile. Then look URL, it have 3 numbers, it represents 'Zoom', 'X', 'Y'. Write it down.
+On the map, find the start point what you want, you can choose one and preview the tile. Then look URL, it have 3 numbers, it represents 'Zoom', 'X', 'Y'. Write it down.
 ![](pic/osmtileDev.png)
 > Tips: You also can host the map tiles server, visit [Switch2OSM](https://switch2osm.org/serving-tiles/).
 
