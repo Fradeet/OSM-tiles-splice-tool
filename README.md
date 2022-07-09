@@ -3,6 +3,7 @@ A simple Python script to splice the OpenStreetMap tiles, and can convert tile t
 
 ## Features
 You can collect the osm server(or host yourself) tiles, and make a big tiles.
+Dark Mode can convert tile to dark. (has example in below)
 
 ## Tutorial
 You need install the Python module first.
@@ -11,7 +12,7 @@ pip install pillow
 pip install requests
 ```
 ### Basic
-Open your web browser, visit [OpenStreetMap Wesite](https://www.openstreetmap.org/), and open the DevTool (Press F12 by default). Turn 'Network' tab, that list the pictures which browser loaded. (If you see the image files, just move the map)
+Open your web browser, visit [OpenStreetMap Wesite](https://www.openstreetmap.org/), and open the DevTool (Press F12 by default). Turn 'Network' tab, that list the pictures which browser loaded. (If you can't see the image files, just move the map)
 
 ![](pic/NetworkTab.png)
 
