@@ -5,7 +5,7 @@ A simple Python script to splice the OpenStreetMap tiles, and can convert tile t
 You can collect the osm server(or host yourself) tiles, and make a big tiles.
 
 ## Tutorial
-And you need install the Python module first.
+You need install the Python module first.
 ```bash
 pip install pillow
 pip install requests
