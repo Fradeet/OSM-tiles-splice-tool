@@ -12,13 +12,16 @@ pip install requests
 ```
 ### Basic
 Open your web browser, visit [OpenStreetMap Wesite](https://www.openstreetmap.org/), and open the DevTool (Press F12 by default). Turn 'Network' tab, that list the pictures which browser loaded. (If you see the image files, just move the map)
+
 ![](pic/NetworkTab.png)
 
 On the map, find the start point what you want, you can choose one and preview the tile. Then look URL, it have 3 numbers, it represents 'Zoom', 'X', 'Y'. Write it down.
+
 ![](pic/osmtileDev.png)
 > Tips: You also can host the map tiles server, visit [Switch2OSM](https://switch2osm.org/serving-tiles/).
 
 Repeat the above operation, find the end point. The area to be generated is a rectangle ,like below.
+
 ![](pic/rectangle.png)
 
 Run the script, enter the info.
@@ -26,6 +29,7 @@ Run the script, enter the info.
 
 ### Dark Mode
 Inspired by Leaflet CSS render.
+
 ![](pic/darkmode.png)
 
 ## RoadMap
