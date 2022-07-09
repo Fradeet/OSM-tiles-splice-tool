@@ -5,6 +5,11 @@ A simple Python script to splice the OpenStreetMap tiles.
 You can collect the osm server(or host yourself) tiles, and make a big tiles.
 
 ## Tutorial
+You need install the Python module first.
+```bash
+pip install pillow
+pip install requests
+```
 ### Basic
 Open your web browser, visit [OpenStreetMap Wesite](https://www.openstreetmap.org/),and open the DevTool (Press F12 by default). Turn 'Network' tab, that list the pictures which browser loaded. (If you see the image files, just move the map)
 ![](pic/NetworkTab.png)
