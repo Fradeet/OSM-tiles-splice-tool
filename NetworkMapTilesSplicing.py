@@ -31,16 +31,16 @@ def DarkTile(tile):
     tile= ImageEnhance.Brightness(tile)
     tile= tile.enhance(0.6)
 
-    try:
-        invertedTile = ImageOps.invert(tile)
-        tile= invertedTile
-    except:#Can't direct convert PNG
+    if tile.mode == 'RGBA':#Can't direct convert PNG
         r,g,b,a = tile.split()
         rgbTile = Image.merge('RGB', (r,g,b))
         invertedTile = ImageOps.invert(rgbTile)
         r,g,b = invertedTile.split()
         rgbaTile = Image.merge('RGBA', (r,g,b,a))
         tile= rgbaTile
+    else:
+        invertedTile = ImageOps.invert(tile)
+        tile= invertedTile
 
     tile= ImageEnhance.Contrast(tile)
     tile= tile.enhance(3)
