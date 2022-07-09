@@ -29,9 +29,9 @@ def GetNetworkPictures(infoDict):
 def main():
     xList= yList= []
     
-    zoomRate= input("Zoom Level (Z)：")
-    p1X, p1Y= map(int,input("Location1 (x,y)：").split(","))
-    p2X, p2Y= map(int,input("Location2 (x,y)：").split(","))
+    zoomRate= input("Zoom Level (Z): ")
+    p1X, p1Y= map(int,input("Location1 (x,y): ").split(","))
+    p2X, p2Y= map(int,input("Location2 (x,y): ").split(","))
 
     #Sort, start from small location
     xList= [p1X,p2X]
