@@ -31,6 +31,8 @@ Run the script, enter the info.
 ### Dark Mode
 Inspired by Leaflet CSS render.
 
+(This feature is render pixel by pixel. It may very slow which process large files.)
+
 ![](pic/darkmode.png)
 
 ## RoadMap
