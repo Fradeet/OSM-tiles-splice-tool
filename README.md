@@ -13,7 +13,7 @@ Find the start point what you want, you can choose one and preview the tile. The
 ![](pic/osmtileDev.png)
 > Tips: You also can host the map tiles server, watch [Switch2OSM](https://switch2osm.org/serving-tiles/).
 
-Repeat the above operation, find the end point. The area to be generated is a rectangle as below.
+Repeat the above operation, find the end point. The area to be generated is a rectangle ,like below.
 ![](pic/rectangle.png)
 
 Run the script, enter the info.
