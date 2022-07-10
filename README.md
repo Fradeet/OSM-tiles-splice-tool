@@ -31,7 +31,7 @@ Run the script, enter the info.
 ### Dark Mode
 Inspired by Leaflet CSS render.
 
-(This feature is convert pixel by pixel. It may very slow which process large files.)
+(This feature is convert pixel by pixel. It may very slow which process large files. Planning muti-threads.)
 
 ![](pic/darkmode.png)
 
@@ -40,6 +40,7 @@ Welcome PR.
 
 ## RoadMap
 - [x] Update the Dark Mode
+  - [ ] Update the Muti-threads
 - Split the big tiles, easy painting to A4 paper
 
 ## About the project
